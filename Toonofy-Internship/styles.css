@@ -180,7 +180,8 @@ li {
     /*box-shadow: 10px 10px 10px #00000045;*/
     opacity: 1;
 }
-#contentHeaderleft{
+
+#contentHeaderleft {
     margin: 75px auto 0;
     top: 0px;
     left: 0px;
@@ -191,6 +192,37 @@ li {
     letter-spacing: 0px;
     color: #E4E4E4;
 }
-#contentHeaderRight{
+
+#contentHeaderRight {
     color: #FFFFFF;
 }
+
+.content-icons {
+    margin: 23px 135px;
+    width: auto;
+    height: auto;
+    background: transparent radial-gradient(closest-side at 50% 50%, #48A4F6 0%, #2F8AE4 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #72BBFF;
+    border-radius: 35px;
+    opacity: 1;
+}
+
+.content-ul {
+    display: flex;
+    justify-content: space-between;
+}
+#content-ul-first{
+    margin-top: 150px;
+}
+#content-ul-last{
+    margin-bottom: 150px;
+}
+/*.content-ul li{
+    margin-top: 50px;
+}*/
+.content-ul li:first-child{
+    margin-left: 150px;
+} 
+.content-ul li:last-child{
+    margin-right: 150px;
+} 
