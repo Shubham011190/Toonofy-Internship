@@ -153,15 +153,30 @@ li {
 }
 
 #main-animation {
-    position: relative;
-    top: 23px;
-    left: 135px;
-    right: 134px;
+    top: 0;
+    left: 0;
+    display: block;
+    margin: 23px auto;
     width: 1651px;
     height: 763px;
     background: url('assets/map-animation-800x600-phone-005-1.png') no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 35px;
     opacity: 1;
-    margin: 23px 135px 0 135px;
+}
+
+.animation-box {
+    height: fit-content;
+}
+
+#ytbtn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 575px 887px 0;
+    width: 146px;
+    height: 103px;
+    /*background: #FC2222 0% 0% no-repeat padding-box;*/
+    /*box-shadow: 10px 10px 10px #00000045;*/
+    opacity: 1;
 }
