@@ -210,19 +210,46 @@ li {
 .content-ul {
     display: flex;
     justify-content: space-between;
+    padding: 0;
 }
-#content-ul-first{
+
+#content-ul-first {
     margin-top: 150px;
 }
-#content-ul-last{
-    margin-bottom: 150px;
+
+#content-ul-last {
+    margin-bottom: 64px;
 }
+
 /*.content-ul li{
     margin-top: 50px;
 }*/
-.content-ul li:first-child{
+.content-ul>li:first-child {
     margin-left: 150px;
-} 
-.content-ul li:last-child{
+}
+
+.content-ul>li:last-child {
     margin-right: 150px;
-} 
+}
+.content-ul li ul{
+    padding: 0;
+}
+
+
+.content-ul li ul li p {
+    position: relative;
+    margin: 0;
+    margin-bottom : 86px;
+    top: -25px;
+    left: 0;
+    width: fit-content;
+    height: 35px;
+    text-align: center;
+    font: normal normal bold 26px/65px Nunito;
+    letter-spacing: 1.3px;
+    color: #005AB2;
+    opacity: 1;
+}
+.context-text-color{
+    color: #E4E4E4;
+}
