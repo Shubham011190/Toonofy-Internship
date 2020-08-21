@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+all{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    top: 0px;
+    left: 0px;
+    background: #4DA1FA 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+li {
+    list-style-type: none;
+}
+
+.navbar-bar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-ul-list {
+    position: relative;
+    top: 48px;
+    right: 134px;
+    width: 661px;
+    height: 27px;
+    opacity: 1;
+    display: flex;
+
+}
+
+.logo-img {
+    position: relative;
+    top: 38px;
+    left: 135px;
+    width: 224px;
+    height: 45px;
+    background: transparent url('img/Toonofy-Logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#navhome {
+    top: 48px;
+    left: 1125px;
+    width: 58px;
+    height: 27px;
+    text-align: center;
+    font: normal normal normal 20px/27px Segoe UI;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0px;
+    color: #0052AA;
+    opacity: 1;
+}
+
+#navol {
+    top: 48px;
+    left: 1226px;
+    width: 106px;
+    height: 27px;
+    text-align: center;
+    font: normal normal normal 20px/27px Segoe UI;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0px;
+    color: #0052AA;
+    opacity: 1;
+}
+
+#navylp {
+    top: 48px;
+    left: 1375px;
+    width: 32px;
+    height: 27px;
+    text-align: center;
+    font: normal normal normal 20px/27px Segoe UI;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#navwork {
+    top: 48px;
+    left: 1450px;
+    width: 124px;
+    height: 27px;
+    text-align: center;
+    font: normal normal normal 20px/27px Segoe UI;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0px;
+    color: #0052AA;
+    opacity: 1;
+}
+
+#navvid {
+    top: 48px;
+    left: 1617px;
+    width: 68px;
+    height: 27px;
+    text-align: center;
+    font: normal normal normal 20px/27px Segoe UI;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0px;
+    color: #0052AA;
+    opacity: 1;
+}
+
+#navlog {
+    top: 48px;
+    left: 1728px;
+    width: 58px;
+    height: 27px;
+    text-align: center;
+    font: normal normal normal 20px/27px Segoe UI;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0px;
+    color: #0052AA;
+    opacity: 1;
+}
+
+.navbar-ul-list li {
+    margin-left: 43px;
+    text-transform: capitalize;
+}
+
+#mainHeadleft {
+    margin: 143px auto 0;
+    top: 0px;
+    left: 0px;
+    width: 1250px;
+    height: 79px;
+    text-align: left;
+    font: normal normal normal 58px/79px Nunito;
+    letter-spacing: 0px;
+    color: #E4E4E4;
+}
+
+#mainHeadRight {
+    top: 0px;
+    left: 722px;
+    width: 528px;
+    height: 79px;
+    text-align: left;
+    font: normal normal bold 58px/79px Nunito;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
