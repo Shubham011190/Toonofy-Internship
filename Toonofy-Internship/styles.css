@@ -256,7 +256,7 @@ li {
     color: #E4E4E4;
 }
 
-hr {
+.hr1 {
     top: 0px;
     left: 0px;
     margin-top: 108px;
@@ -271,8 +271,72 @@ hr {
     left: 0;
     margin: 52px 135px 0;
     width: auto;
-    height: 632px;
+    height: auto;
     background: #377DC8 0% 0% no-repeat padding-box;
     border-radius: 35px;
+    opacity: 1;
+}
+
+.details {
+    display: flex;
+}
+.company{
+    flex: 1;
+}
+
+.company h6 {
+    top: 0;
+    left: 0;
+    margin-left: 66px;
+    width: 112px;
+    height: 27px;
+    text-align: left;
+    font: normal normal bold 20px/50px Nunito;
+    letter-spacing: 2px;
+    color: #000000;
+    opacity: 1;
+}
+
+.company hr {
+    width: 437px;
+    height: 1px;
+    background: #175392 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 66px;
+}
+
+.company img {
+    margin-left: 50px;
+    padding: 0;
+    margin-top: 33px;
+    width: 176px;
+    height: 28px;
+    background: transparent url('img/Group 2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.company p {
+    margin-left: 66px;
+    margin-top: 16.83px;
+    width: 394px;
+    height: 57px;
+    text-align: left;
+    font: normal normal normal 20px/30px Nunito;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.list-details {
+    padding: 0;
+    margin-top: 95px;
+    margin-left: 66px;
+    margin-bottom: 64px;
+    width: 213px;
+    height: 234px;
+    text-align: left;
+    font: normal normal normal 25px/50px Nunito;
+    letter-spacing: 0px;
+    color: #FFFFFF;
     opacity: 1;
 }
