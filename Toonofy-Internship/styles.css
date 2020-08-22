@@ -280,7 +280,21 @@ li {
 .details {
     display: flex;
 }
-.company{
+
+.company {
+    flex: 3;
+}
+
+.resources {
+    flex: 2;
+    /*width: 365px;*/
+}
+
+.classes {
+    flex: 1;
+}
+
+.social {
     flex: 1;
 }
 
@@ -288,6 +302,7 @@ li {
     top: 0;
     left: 0;
     margin-left: 66px;
+    margin-bottom: 14px;
     width: 112px;
     height: 27px;
     text-align: left;
@@ -301,7 +316,10 @@ li {
     width: 437px;
     height: 1px;
     background: #175392 0% 0% no-repeat padding-box;
+    margin-top: 14px;
     opacity: 1;
+    border: none;
+    border-bottom: 1px solid #e4e4e4;
     margin-left: 66px;
 }
 
@@ -334,6 +352,85 @@ li {
     margin-bottom: 64px;
     width: 213px;
     height: 234px;
+    text-align: left;
+    font: normal normal normal 25px/50px Nunito;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.resources h6 {
+    margin-bottom: 14px;
+    width: 136px;
+    height: 27px;
+    text-align: left;
+    font: normal normal bold 20px/50px Nunito;
+    letter-spacing: 2px;
+    color: #000000;
+    opacity: 1;
+}
+
+.resources hr {
+    width: 364px;
+    margin-left: 0;
+    height: 1px;
+    background: #81BEFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.resources-ul {
+    flex: 1;
+    padding: 0;
+    width: 134px;
+    height: 450px;
+    text-align: left;
+    font: normal normal normal 25px/50px Nunito;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.resources-ul2 {
+    flex: 1;
+    padding: 0;
+    margin-right: 0;
+    width: 158px;
+    height: 434px;
+    text-align: left;
+    font: normal normal normal 25px/50px Nunito;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.ul-list {
+    display: flex;
+}
+
+.classes h6 {
+    width: 101px;
+    height: 27px;
+    text-align: left;
+    font: normal normal bold 20px/50px Nunito;
+    letter-spacing: 2px;
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 0;
+}
+
+.classes hr {
+    margin-left: 0;
+    margin-top: 14px;
+    width: 144px;
+    height: 1px;
+    background: #81BEFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.classes ul {
+    padding: 0;
+    width: 114px;
+    height: 434px;
     text-align: left;
     font: normal normal normal 25px/50px Nunito;
     letter-spacing: 0px;
